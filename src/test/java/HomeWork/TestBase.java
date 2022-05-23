@@ -13,7 +13,7 @@ import java.time.Duration;
 public class TestBase {
 
     public WebDriver driver;
-     public WebDriverWait wait;
+    public WebDriverWait wait;
     public Duration seconds;
 
 
@@ -25,8 +25,8 @@ public class TestBase {
         chromeOptions.addArguments("start-maximized");
 
         driver = new ChromeDriver(chromeOptions);
-          seconds = Duration.ofSeconds(3);
-          wait = new WebDriverWait(driver,seconds);
+        seconds = Duration.ofSeconds(3);
+        wait = new WebDriverWait(driver, seconds);
     }
 
     @AfterMethod

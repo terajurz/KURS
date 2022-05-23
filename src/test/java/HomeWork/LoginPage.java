@@ -18,7 +18,7 @@ public class LoginPage extends TestBase {
 
 
     @Test
-    public void shouldTakeToLoginPageWithSuccess() {
+    public void shouldSignUpWithSuccess() {
         driver.get("http://146.59.32.4/index.php");
         //main page
         WebElement signInButton = driver.findElement(By.cssSelector("#_desktop_user_info .hidden-sm-down"));
