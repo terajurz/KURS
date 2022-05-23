@@ -4,26 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b9a31a4-e46b-4ab4-b61b-5ba0453dd791" name="Changes" comment="zadanie">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/file.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HomeWork/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HomeWork/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ch1_TestNgIntro/MyFirstTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ch1_TestNgIntro/MySecondTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ch2_SeleniumIntro/Ex1_OpenWebsite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ch3_TestBase/AlertTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ch3_TestBase/FormTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ch3_TestBase/IFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ch3_TestBase/Slider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ch3_TestBase/SliderPro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ch3_TestBase/TestBase.java" afterDir="false" />
-    </list>
+    <list default="true" id="0b9a31a4-e46b-4ab4-b61b-5ba0453dd791" name="Changes" comment="zadanie" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -167,6 +148,21 @@
       <option name="presentableId" value="Default" />
       <updated>1652514556119</updated>
     </task>
+    <task id="LOCAL-00001" summary="zadanie">
+      <created>1653333105102</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1653333105102</updated>
+    </task>
+    <task id="LOCAL-00002" summary="zadanie">
+      <created>1653333597173</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1653333597173</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -191,11 +187,6 @@
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="1" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/HomeWork/LoginPage.java</url>
-          <line>40</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

@@ -1,7 +1,10 @@
-package HomeWork;
 
+//ZADANIE 1
 //#homefeatured .right-block .price
 
+
+
+package HomeWork;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
