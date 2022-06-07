@@ -8,6 +8,7 @@ package HomeWork;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -20,6 +21,7 @@ import java.util.Random;
 public class LoginPage extends TestBase {
 
 
+
     @Test
     public void shouldSignUpWithSuccess() {
         driver.get("http://146.59.32.4/index.php");
@@ -28,7 +30,7 @@ public class LoginPage extends TestBase {
         wait.until(ExpectedConditions.elementToBeClickable(signInButton));
         signInButton.click();
         //signIn page
-        WebElement accountButton = driver.findElement(By.cssSelector("#content > div > a"));
+        WebElement accountButton = driver.findElement(By.cssSelector(".no-account"));
         accountButton.click();
         //signUpForm page
         List<WebElement> socialTitle = driver.findElements(By.cssSelector("#customer-form .radio-inline"));

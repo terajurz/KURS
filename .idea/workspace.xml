@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b9a31a4-e46b-4ab4-b61b-5ba0453dd791" name="Changes" comment="zadanie" />
+    <list default="true" id="0b9a31a4-e46b-4ab4-b61b-5ba0453dd791" name="Changes" comment="zadanie">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/FormPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Medicover/Setup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Medicover/Szukacz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Zadanie1_Praca_Domo_Week2/DatePicker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ch3_TestBase/DragAndDrop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ch3_TestBase/Tables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ch3_TestBase/Wait.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ch3_TestBase/Waitty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ch4_ModernTesterBasic/Ex1_FormTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ch5_FirstHomework/Ex2_RegisterNewUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ch7_Pop/Ex1_FormPop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HomeWork/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HomeWork/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ch3_TestBase/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ch3_TestBase/TestBase.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,11 +39,16 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="autoscrollToSource" value="true" />
+  </component>
   <component name="ProjectId" id="2999hO6AftBaST2lKKbOtSXshZ5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
@@ -39,18 +60,18 @@
     &quot;last_opened_file_path&quot;: &quot;C:/projekty/eurobank&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.LoginPage">
-    <configuration name="AlertTests.shouldAcceptAlert" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.DatePicker.shouldPickDate">
+    <configuration name="DatePicker.shouldPickDate" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumBasic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch3_TestBase.*" />
+          <option name="PATTERN" value="Zadanie1_Praca_Domo_Week2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ch3_TestBase" />
-      <option name="MAIN_CLASS_NAME" value="ch3_TestBase.AlertTests" />
-      <option name="METHOD_NAME" value="shouldAcceptAlert" />
+      <option name="PACKAGE_NAME" value="Zadanie1_Praca_Domo_Week2" />
+      <option name="MAIN_CLASS_NAME" value="Zadanie1_Praca_Domo_Week2.DatePicker" />
+      <option name="METHOD_NAME" value="shouldPickDate" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -58,33 +79,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginPage" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Ex1_FormPop.shouldFillFormWithSuccess" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumBasic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HomeWork.*" />
+          <option name="PATTERN" value="ch7_Pop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="HomeWork" />
-      <option name="MAIN_CLASS_NAME" value="HomeWork.LoginPage" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginPage.shouldFillFormWithSuccess" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumBasic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HomeWork.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="HomeWork" />
-      <option name="MAIN_CLASS_NAME" value="HomeWork.LoginPage" />
+      <option name="PACKAGE_NAME" value="ch7_Pop" />
+      <option name="MAIN_CLASS_NAME" value="ch7_Pop.Ex1_FormPop" />
       <option name="METHOD_NAME" value="shouldFillFormWithSuccess" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -93,17 +97,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginPage.shouldTakeToLoginPageWithSuccess" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Ex1_FormTest.shouldFillFormWithSuccess" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumBasic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HomeWork.*" />
+          <option name="PATTERN" value="ch4_ModernTesterBasic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="HomeWork" />
-      <option name="MAIN_CLASS_NAME" value="HomeWork.LoginPage" />
-      <option name="METHOD_NAME" value="shouldTakeToLoginPageWithSuccess" />
+      <option name="PACKAGE_NAME" value="ch4_ModernTesterBasic" />
+      <option name="MAIN_CLASS_NAME" value="ch4_ModernTesterBasic.Ex1_FormTest" />
+      <option name="METHOD_NAME" value="shouldFillFormWithSuccess" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -111,17 +115,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginPage.shouldTakeToSignUpPageWithSuccess" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Wait.shouldWaitForComplete2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumBasic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HomeWork.*" />
+          <option name="PATTERN" value="ch3_TestBase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="HomeWork" />
-      <option name="MAIN_CLASS_NAME" value="HomeWork.LoginPage" />
-      <option name="METHOD_NAME" value="shouldTakeToSignUpPageWithSuccess" />
+      <option name="PACKAGE_NAME" value="ch3_TestBase" />
+      <option name="MAIN_CLASS_NAME" value="ch3_TestBase.Wait" />
+      <option name="METHOD_NAME" value="shouldWaitForComplete2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Waitty.shouldAddProductToBasket" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumBasic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch3_TestBase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ch3_TestBase" />
+      <option name="MAIN_CLASS_NAME" value="ch3_TestBase.Waitty" />
+      <option name="METHOD_NAME" value="shouldAddProductToBasket" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -131,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LoginPage" />
-        <item itemvalue="TestNG.LoginPage.shouldTakeToLoginPageWithSuccess" />
-        <item itemvalue="TestNG.LoginPage.shouldTakeToSignUpPageWithSuccess" />
-        <item itemvalue="TestNG.AlertTests.shouldAcceptAlert" />
-        <item itemvalue="TestNG.LoginPage.shouldFillFormWithSuccess" />
+        <item itemvalue="TestNG.DatePicker.shouldPickDate" />
+        <item itemvalue="TestNG.Ex1_FormPop.shouldFillFormWithSuccess" />
+        <item itemvalue="TestNG.Ex1_FormTest.shouldFillFormWithSuccess" />
+        <item itemvalue="TestNG.Waitty.shouldAddProductToBasket" />
+        <item itemvalue="TestNG.Wait.shouldWaitForComplete2" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653333597173</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="zadanie">
+      <created>1653333893839</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1653333893839</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -187,6 +216,16 @@
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Medicover/Szukacz.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ch3_TestBase/TestBase.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
